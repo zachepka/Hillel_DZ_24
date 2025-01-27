@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VVVV</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>We would like to help you</h1>
+        <form id="contactForm">
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message" id="nameError"></span>
+            </div>
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <span class="error-message" id="messageError"></span>
+            </div>
+            <h2>HOW TO ANSWER YOU?</h2>
+            <div class="input-group">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone" required>
+                <span class="error-message" id="phoneError"></span>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+            <button type="submit">Send message</button>
+        </form>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
